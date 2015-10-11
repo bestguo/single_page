@@ -67,3 +67,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   color: #333;
 }
+
+/* line 8, ../sass/style.scss */
+h1 {
+  font-family: Bitter,Georgia,san-serif;
+}
