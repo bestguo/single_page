@@ -28,3 +28,6 @@ $.getJSON("http://api.dribbble.com/players/"+dribbbleUsername+"/shots?callback=?
 		html +='</li>';
 	};
 })
+
+// Insert the generated HTML to the DOM
+$('shots').html(html);
